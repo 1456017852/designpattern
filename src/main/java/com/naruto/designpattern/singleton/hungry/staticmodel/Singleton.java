@@ -1,7 +1,7 @@
-package com.naruto.designpattern.singleton.lazy.staticmodel;
+package com.naruto.designpattern.singleton.hungry.staticmodel;
 
 /**
- * 【单例模式:懒汉式(静态代码块)】
+ * 【单例模式:饿汉式(静态代码块)】
  *
  *  1) 这种方式和懒汉式(静态常量)的方式其实类似，只不过将类实例化的过程放在了静态代码块中，
  *      也是在类装载的时候，就执行静态代码块中的代码，初始化类的实例。优缺点和上面是一样的。
