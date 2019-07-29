@@ -1,9 +1,7 @@
 package com.naruto.designpattern.adapter.objectAdapter;
 
-import org.junit.Assert;
-
 /**
- * 类适配器
+ * 对象适配器
  */
 public class Adapter implements Voltage5V{
 
