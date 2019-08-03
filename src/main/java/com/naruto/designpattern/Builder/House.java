@@ -29,4 +29,13 @@ public class House {
     public void setTop(String top) {
         this.top = top;
     }
+
+    @Override
+    public String toString() {
+        return "House{" +
+                "baise='" + baise + '\'' +
+                ", wall='" + wall + '\'' +
+                ", top='" + top + '\'' +
+                '}';
+    }
 }

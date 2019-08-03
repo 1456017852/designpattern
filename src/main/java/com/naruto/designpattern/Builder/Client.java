@@ -47,12 +47,12 @@ public class Client {
 
         HouseDirector houseDirector1=new HouseDirector(new HighHouse());
 
-        House commonHouse=houseDirector.createHouse();
-        System.out.println(commonHouse.getBaise());
-        System.out.println(commonHouse.getTop());
-        System.out.println(commonHouse.getWall());
 
-        House highHouse=houseDirector1.createHouse();
+        House house=houseDirector.builderHouse();
+        System.out.println("commonHouse---:"+house);
+
+        House house1=houseDirector1.builderHouse();
+        System.out.println("highHouse---:"+house1);
 
     }
 

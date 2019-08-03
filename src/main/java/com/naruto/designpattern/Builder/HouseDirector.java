@@ -12,7 +12,7 @@ public class HouseDirector {
     }
 
     //如何建造房子交给指挥者
-    public House createHouse(){
+    public House builderHouse(){
         abstractHouseBuilder.buildBasic();
         abstractHouseBuilder.buildWall();
         abstractHouseBuilder.buildTop();

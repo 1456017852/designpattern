@@ -5,13 +5,12 @@ package com.naruto.designpattern.Builder;
  */
 public abstract class AbstractHouseBuilder {
 
+    private House house=new House();
     //将构造的流程写好
     public abstract void buildBasic();
     public abstract void buildWall();
     public abstract void buildTop();
 
-    public House buildHouse(){
-        return new House();
-    }
+    public abstract House buildHouse();
 
 }
